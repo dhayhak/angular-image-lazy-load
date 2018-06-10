@@ -4225,8 +4225,9 @@ next-tick@1:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
 
-"ng-image-lazy-load@file:lib/dist":
+ng-image-lazy-load@^0.0.1:
   version "0.0.1"
+  resolved "https://registry.yarnpkg.com/ng-image-lazy-load/-/ng-image-lazy-load-0.0.1.tgz#afbb34f115a86edba23b42779cb6e8eac0b96c34"
   dependencies:
     tslib "^1.9.0"
 

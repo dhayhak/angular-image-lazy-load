@@ -18,7 +18,6 @@ export class LazyLoadDirective implements AfterViewInit, OnDestroy {
     private _zone: NgZone,
     @Inject(PLATFORM_ID) private platformId: Object
   ) {
-    _element.nativeElement.style.backgroundColor = 'yellow';
   }
 
   public ngAfterViewInit() {
