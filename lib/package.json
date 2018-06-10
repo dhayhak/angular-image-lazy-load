@@ -1,0 +1,14 @@
+{
+    "name": "ng-image-lazy-load",
+    "version": "0.0.1",
+    "author": "Dhia Louhichi <dhia@endyloop.com>",
+    "description": "Angular directive to load images lazily.",
+    "license": "MIT",
+    "ngPackage": {
+        "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
+        "lib": {
+            "entryFile": "public_api.ts"
+        },
+        "dest": "dist"
+    }
+}

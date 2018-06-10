@@ -1,0 +1,20 @@
+{
+  "name": "ng-image-lazy-load",
+  "version": "0.0.1",
+  "author": "Dhia Louhichi <dhia@endyloop.com>",
+  "description": "Angular directive to load images lazily.",
+  "license": "MIT",
+  "main": "bundles/ng-image-lazy-load.umd.js",
+  "module": "fesm5/ng-image-lazy-load.js",
+  "es2015": "fesm2015/ng-image-lazy-load.js",
+  "esm5": "esm5/ng-image-lazy-load.js",
+  "esm2015": "esm2015/ng-image-lazy-load.js",
+  "fesm5": "fesm5/ng-image-lazy-load.js",
+  "fesm2015": "fesm2015/ng-image-lazy-load.js",
+  "typings": "ng-image-lazy-load.d.ts",
+  "metadata": "ng-image-lazy-load.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
