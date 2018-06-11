@@ -4,6 +4,7 @@ Angular directive to load images lazily. Supports Universal SSR.
 
 It is using Intersection Observer API and falls back to scroll detection for unsuppoted browsers.
 
+It was inspired by [ng-defer-load](https://github.com/TradeMe/ng-defer-load)
 ## Installation
 `npm install ng-image-lazy-load`
 
