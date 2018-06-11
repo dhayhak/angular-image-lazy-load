@@ -5,8 +5,7 @@ Angular directive to load images lazily. Supports Universal SSR.
 It is using Intersection Observer API and falls back to scroll detection for unsuppoted browsers.
 
 ## Installation
-1. `npm install ng-image-lazy-load`
-2. 
+`npm install ng-image-lazy-load`
 
 ```typescript
 import { NgModule } from '@angular/core';
@@ -26,9 +25,7 @@ export class MyAppModule {}
 
 ## Usage
 
-Add `appLazyLoad` directive to  your image.
-
-Set the source url: `[src]=<path to image>`
+Add `appLazyLoad` directive to the image and set the source url: `[src]=<path to image>`
 
 ```html
 <figure>
@@ -39,3 +36,4 @@ Set the source url: `[src]=<path to image>`
 
 ## Demo
 
+[demo on stackblitz.io](https://angular-jfryyy.stackblitz.io)
